@@ -1,0 +1,39 @@
+{
+    "name": "xkxx-app",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+        "serve": "vite serve --mode development",
+        "build": "vue-tsc --noEmit && vite build",
+        "prod": "vite serve --mode production",
+        "test": "vite serve --mode test",
+        "build:test": "vite build --mode test",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "@fanthos/gm-crypto": "^0.1.7",
+        "axios": "^0.26.0",
+        "dayjs": "^1.10.7",
+        "es6-promise": "^4.2.8",
+        "gm-crypt": "0.0.2",
+        "gm-crypto": "^0.1.8",
+        "lodash": "^4.17.21",
+        "postcss-px-to-viewport": "^1.1.1",
+        "qs": "^6.10.3",
+        "tslib": "^2.3.1",
+        "vant": "^3.4.3",
+        "vue": "^3.2.25",
+        "vue-router": "^4.0.12",
+        "vuex": "^4.0.2",
+        "webpack-env": "^0.8.0"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.178",
+        "@types/node": "^17.0.23",
+        "@types/qs": "^6.9.7",
+        "@vitejs/plugin-vue": "^2.2.0",
+        "typescript": "^4.5.4",
+        "vite": "^2.8.0",
+        "vue-tsc": "^0.29.8"
+    }
+}
